@@ -42,8 +42,7 @@ To run the application locally, you must have Python 3.7+ installed along with t
 
 You can install the necessary packages using `pip`:
 
-```bash
-pip install pandas numpy scikit-learn imbalanced-learn streamlit matplotlib seaborn
+
 
 ## Model Training
 
