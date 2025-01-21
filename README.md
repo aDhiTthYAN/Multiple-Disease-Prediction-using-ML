@@ -1,21 +1,21 @@
 ![Screenshot (373)](https://github.com/user-attachments/assets/bca26831-ca31-45fa-94ae-501b8191aadb)
 
-# Disease Prediction System using Machine Learning
+# Multiple Disease Prediction Streamlit App using ML
 
-This repository contains a machine learning-based application that predicts the likelihood of **Diabetes** and **Heart Disease** using user-provided inputs. The project uses various machine learning models, including Random Forest, SVM, Logistic Regression, and Gradient Boosting, to classify data and provide accurate predictions.
+This repository contains a machine learning-based **Streamlit application** that predicts the likelihood of **Diabetes** and **Heart Disease** based on user input. The system uses machine learning models such as **Random Forest**, **Support Vector Machine (SVM)**, **Logistic Regression**, and **Gradient Boosting** to classify the data and provide accurate predictions.
 
 ## Project Overview
 
-The project is designed to help in predicting **Diabetes** and **Heart Disease** based on a set of input features. The data is preprocessed and standardized using techniques like SMOTE for handling class imbalance. Models are trained and hyperparameter-tuned to achieve high accuracy and provide reliable results. The final models are saved and deployed using **Streamlit** for easy user interaction. The user can input values via a web interface, and the model will output the prediction for diabetes or heart disease.
+The **Multiple Disease Prediction System** is designed to predict **Diabetes** and **Heart Disease** using multiple input features. The data is preprocessed using techniques like SMOTE to handle class imbalance. Various machine learning models are trained, hyperparameter-tuned, and evaluated to achieve high accuracy. The best-performing models are deployed using **Streamlit**, where users can interact via a web interface to get predictions.
 
 ## Dataset Information
 
-1. **Diabetes Dataset**: The dataset used for predicting diabetes contains multiple features such as glucose levels, BMI, insulin, and other health-related attributes to determine if an individual is diabetic.
+1. **Diabetes Dataset**: This dataset includes features like glucose levels, BMI, insulin, and other health-related attributes to determine whether an individual is diabetic.
     - **Outcome** column:
         - 0 → Non-Diabetic
         - 1 → Diabetic
 
-2. **Heart Disease Dataset**: The dataset used for predicting heart disease contains various features such as age, sex, chest pain type, blood pressure, cholesterol levels, and other relevant factors to predict heart disease.
+2. **Heart Disease Dataset**: This dataset contains factors like age, sex, chest pain type, blood pressure, cholesterol levels, and other relevant features to predict heart disease.
     - **Prediction Output**:
         - 0 → No Heart Disease
         - 1 → Heart Disease Present
@@ -26,14 +26,14 @@ The project is designed to help in predicting **Diabetes** and **Heart Disease**
 - **NumPy**: For numerical operations.
 - **Scikit-learn**: For machine learning models, preprocessing, and evaluation.
 - **Imbalanced-learn**: For handling class imbalance using SMOTE.
-- **Streamlit**: For the web-based user interface.
+- **Streamlit**: For building the web-based user interface.
 - **Seaborn/Matplotlib**: For data visualization.
 
 ## Installation
 
 ### Requirements
 
-To run the application locally, you must have Python 3.7+ installed along with the following packages:
+To run the application locally, ensure Python 3.7+ is installed along with the following libraries:
 - pandas
 - numpy
 - scikit-learn
@@ -43,8 +43,6 @@ To run the application locally, you must have Python 3.7+ installed along with t
 - seaborn
 
 You can install the necessary packages using `pip`:
-
-
 
 ## Model Training
 
