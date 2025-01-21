@@ -1,3 +1,5 @@
+![Screenshot (373)](https://github.com/user-attachments/assets/bca26831-ca31-45fa-94ae-501b8191aadb)
+
 # Disease Prediction System using Machine Learning
 
 This repository contains a machine learning-based application that predicts the likelihood of **Diabetes** and **Heart Disease** using user-provided inputs. The project uses various machine learning models, including Random Forest, SVM, Logistic Regression, and Gradient Boosting, to classify data and provide accurate predictions.
@@ -120,7 +122,6 @@ input_data = (4, 110, 92, 0, 0, 37.6, 8.191, 30)  # Input sample data
 prediction = diabetes_model.predict(input_data)
 
 #### Heart Disease Prediction:
-```python
 user_input = [63, 1, 3, 145, 233, 1, 2, 150, 0, 2.3, 3, 0, 6]
 heart_prediction = heart_disease_model.predict(user_input)
 
