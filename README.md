@@ -119,5 +119,8 @@ For the **Heart Disease Prediction**, the following features are required:
 input_data = (4, 110, 92, 0, 0, 37.6, 8.191, 30)  # Input sample data
 prediction = diabetes_model.predict(input_data)
 
-
+#### Heart Disease Prediction:
+```python
+user_input = [63, 1, 3, 145, 233, 1, 2, 150, 0, 2.3, 3, 0, 6]
+heart_prediction = heart_disease_model.predict(user_input)
 
