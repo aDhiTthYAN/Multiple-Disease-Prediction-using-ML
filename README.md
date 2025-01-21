@@ -51,6 +51,8 @@ You can install the necessary packages using `pip`:
 pip install pandas numpy scikit-learn imbalanced-learn streamlit matplotlib seaborn
 
 
+
+
 ## Model Training
 
 The models are trained using the following steps:
@@ -125,5 +127,6 @@ For the **Heart Disease Prediction**, the following features are required:
 ```python
 input_data = (4, 110, 92, 0, 0, 37.6, 8.191, 30)  # Input sample data
 prediction = diabetes_model.predict(input_data)
+
 
 
